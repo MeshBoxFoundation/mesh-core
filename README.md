@@ -1,32 +1,19 @@
-# iotex-core 
+# mesh-core 
 
-Official Golang implementation of the IoTeX protocol.
+Official Golang implementation of the meshbox protocol.
 
-[![Join the forum](https://img.shields.io/badge/Discuss-IoTeX%20Community-blue)](https://community.iotex.io/c/research-development/protocol)
-[![Go version](https://img.shields.io/badge/go-1.17.3-blue.svg)](https://github.com/moovweb/gvm)
-[![CircleCI](https://circleci.com/gh/iotexproject/iotex-core.svg?style=svg&circle-token=fe0817d127f251a34b8bdd3336a808c7537e5ec0)](https://circleci.com/gh/iotexproject/iotex-core)
-[![Go Report Card](https://goreportcard.com/badge/github.com/iotexproject/iotex-core)](https://goreportcard.com/report/github.com/iotexproject/iotex-core)
-[![Coverage](https://codecov.io/gh/iotexproject/iotex-core/branch/master/graph/badge.svg)](https://codecov.io/gh/iotexproject/iotex-core)
-[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/iotexproject/iotex-core)
-[![Releases](https://img.shields.io/github/release/iotexproject/iotex-core/all.svg?style=flat-square)](https://github.com/iotexproject/iotex-core/releases)
-[![LICENSE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-
-<a href="https://iotex.io/"><img src="logo/IoTeX.png" height="200px"/></a>
+<a href="https://meshbox.io/"><img src="logo/meshbox.png" height="200px"/></a>
 
 
-Welcome to the official Go implementation of IoTeX protocol! IoTeX is building the next generation of the decentralized blockchain protocol for powering real-world information marketplace in a decentralized-yet-scalable way. Refer to IoTeX [whitepaper](https://iotex.io/research/) for details.
+Welcome to the official Go implementation of meshbox protocol! meshbox is building the next generation of the decentralized blockchain protocol for powering real-world information marketplace in a decentralized-yet-scalable way. Refer to meshbox [whitepaper](https://meshbox.io/research/) for details.
 
-<a href="https://iotex.io/devdiscord" target="_blank">
-  <img src="https://github.com/iotexproject/halogrants/blob/880eea4af074b082a75608c7376bd7a8eaa1ac21/img/btn-discord.svg" height="36px">
-</a>
+#### New to meshbox?
 
-#### New to IoTeX?
-
-Please visit https://iotex.io official website or [IoTeX onboard pack](https://onboard.iotex.io/) to learn more about IoTeX network.
+Please visit https://meshbox.io official website or [meshbox onboard pack](https://onboard.meshbox.io/) to learn more about meshbox network.
 
 #### Run a delegate?
 
-Please visit [IoTeX Delegate Manual](https://github.com/iotexproject/iotex-bootstrap) for detailed setup process.
+Please visit [meshbox Delegate Manual](https://github.com/meshboxproject/meshbox-bootstrap) for detailed setup process.
 
 ## Building the source code
 
@@ -41,8 +28,8 @@ Please visit [IoTeX Delegate Manual](https://github.com/iotexproject/iotex-boots
 
 Download the code to your desired local location (doesn't have to be under `$GOPATH/src`)
 ```
-git clone git@github.com:iotexproject/iotex-core.git
-cd iotex-core
+git clone git@github.com:meshboxproject/mesh-core.git
+cd mesh-core
 ```
 
 If you put the project code under your `$GOPATH\src`, you will need to set up an environment variable
@@ -82,7 +69,7 @@ Build the docker image by
 make docker
 ```
 
-### Run iotex-core
+### Run mesh-core
 
 Start (or resume) a standalone server to operate on an blockchain by
 
@@ -107,27 +94,27 @@ Then, "make run" again.
 
 ### Use CLI
 
-Users could interact with iotex blockchain by
+Users could interact with meshbox blockchain by
 
 ```
 ioctl [command]
 ```
 
-Refer to [CLI document](https://docs.iotex.io/developer/ioctl/install.html) for more details.
+Refer to [CLI document](https://docs.meshbox.io/developer/ioctl/install.html) for more details.
 
 ## Contact
 
-- Mailing list: [iotex-dev](iotex-dev@iotex.io)
-- Dev Forum: [forum](https://community.iotex.io/c/research-development/protocol)
-- Bugs: [issues](https://github.com/iotexproject/iotex-core/issues)
+- Mailing list: [meshbox-dev](meshbox-dev@meshbox.io)
+- Dev Forum: [forum](https://community.meshbox.io/c/research-development/protocol)
+- Bugs: [issues](https://github.com/meshboxproject/mesh-core/issues)
 
 ## Contribution
 We are glad to have contributors out of the core team; contributions, including (but not limited to) style/bug fixes,
 implementation of features, proposals of schemes/algorithms, and thorough documentation, are welcomed. Please refer to
 our [contribution guideline](CONTRIBUTING.md) for more
-information. Development guide documentation is [here](https://github.com/iotexproject/iotex-core/wiki/Developers%27-Guide).
+information. Development guide documentation is [here](https://github.com/meshboxproject/mesh-core/wiki/Developers%27-Guide).
 
-For any major protocol level changes, we use [IIP](https://github.com/iotexproject/iips) to track the proposal, decision
+For any major protocol level changes, we use [IIP](https://github.com/meshboxproject/iips) to track the proposal, decision
 and etc.
 
 ## License
