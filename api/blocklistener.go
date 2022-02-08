@@ -8,8 +8,8 @@ import (
 	"github.com/iotexproject/iotex-proto/golang/iotexapi"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 // blockListener defines the block listener in subscribed through API

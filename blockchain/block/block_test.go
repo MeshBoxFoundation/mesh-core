@@ -19,13 +19,13 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/pkg/compress"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/unit"
-	"github.com/iotexproject/iotex-core/pkg/version"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/compress"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

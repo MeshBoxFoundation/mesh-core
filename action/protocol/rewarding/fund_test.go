@@ -17,8 +17,8 @@ import (
 	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/action/protocol"
-	accountutil "github.com/iotexproject/iotex-core/action/protocol/account/util"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	accountutil "github.com/MeshBoxFoundation/mesh-core/action/protocol/account/util"
 )
 
 func TestProtocol_Fund(t *testing.T) {

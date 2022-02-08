@@ -17,9 +17,9 @@ import (
 
 	"github.com/iotexproject/go-pkgs/hash"
 
-	"github.com/iotexproject/iotex-core/db/batch"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 func TestNewCountingIndex(t *testing.T) {

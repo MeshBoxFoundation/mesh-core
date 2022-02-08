@@ -14,9 +14,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
 )
 
 // TestingBuilder is used to construct Block.

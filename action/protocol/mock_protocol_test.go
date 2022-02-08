@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	action "github.com/iotexproject/iotex-core/action"
+	action "github.com/MeshBoxFoundation/mesh-core/action"
 )
 
 // MockProtocol is a mock of Protocol interface.

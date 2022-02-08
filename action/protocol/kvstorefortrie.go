@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/db/trie"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 type (

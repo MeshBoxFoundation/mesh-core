@@ -19,12 +19,12 @@ import (
 
 	"github.com/iotexproject/go-pkgs/crypto"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/p2p"
-	"github.com/iotexproject/iotex-core/server/itx"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/p2p"
+	"github.com/MeshBoxFoundation/mesh-core/server/itx"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 func TestLocalActPool(t *testing.T) {

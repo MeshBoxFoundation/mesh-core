@@ -12,7 +12,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 	"github.com/stretchr/testify/require"
 )
 

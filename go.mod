@@ -1,4 +1,4 @@
-module github.com/iotexproject/iotex-core
+module github.com/MeshBoxFoundation/mesh-core
 
 go 1.17
 

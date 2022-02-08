@@ -8,8 +8,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	protocol "github.com/iotexproject/iotex-core/action/protocol"
-	state "github.com/iotexproject/iotex-core/state"
+	protocol "github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	state "github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 // MockStateReader is a mock of StateReader interface.

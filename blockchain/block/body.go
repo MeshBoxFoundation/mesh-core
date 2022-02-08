@@ -13,7 +13,7 @@ import (
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action"
 )
 
 // Body defines the struct of body

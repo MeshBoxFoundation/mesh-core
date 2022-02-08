@@ -16,10 +16,10 @@ import (
 	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/action/protocol"
-	accountutil "github.com/iotexproject/iotex-core/action/protocol/account/util"
-	"github.com/iotexproject/iotex-core/action/protocol/rewarding/rewardingpb"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	accountutil "github.com/MeshBoxFoundation/mesh-core/action/protocol/account/util"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/rewarding/rewardingpb"
 )
 
 // fund stores the balance of the rewarding fund. The difference between total and available balance should be

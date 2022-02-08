@@ -13,9 +13,9 @@ import (
 	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
 )
 
 func TestGenesisBlock(t *testing.T) {

@@ -24,13 +24,13 @@ import (
 	"github.com/iotexproject/iotex-proto/golang/iotexapi"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/action/protocol/vote"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/alias"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/bc"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/vote"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/alias"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/bc"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 const (

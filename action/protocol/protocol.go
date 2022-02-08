@@ -11,7 +11,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action"
 )
 
 var (

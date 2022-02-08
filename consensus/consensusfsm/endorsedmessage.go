@@ -6,7 +6,7 @@
 
 package consensusfsm
 
-import "github.com/iotexproject/iotex-core/endorsement"
+import "github.com/MeshBoxFoundation/mesh-core/endorsement"
 
 // EndorsedMessage defines a message with endorsement
 type EndorsedMessage interface {

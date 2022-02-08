@@ -9,7 +9,7 @@ package genesis
 import (
 	"context"
 
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 type genesisKey struct{}

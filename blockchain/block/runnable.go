@@ -10,8 +10,8 @@ import (
 	"github.com/iotexproject/go-pkgs/hash"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 // RunnableActions is abstructed from block which contains information to execute all actions in a block.

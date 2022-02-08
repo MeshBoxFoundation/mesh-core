@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	block "github.com/iotexproject/iotex-core/blockchain/block"
+	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 )
 
 // MockResponder is a mock of Responder interface.

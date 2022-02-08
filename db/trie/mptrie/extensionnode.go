@@ -9,8 +9,8 @@ package mptrie
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/db/trie"
-	"github.com/iotexproject/iotex-core/db/trie/triepb"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie/triepb"
 )
 
 // extensionNode defines a node with a path and point to a child node

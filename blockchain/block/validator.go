@@ -10,7 +10,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/iotexproject/iotex-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action"
 	"github.com/pkg/errors"
 )
 

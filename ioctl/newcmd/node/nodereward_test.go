@@ -14,11 +14,11 @@ import (
 
 	"github.com/iotexproject/iotex-proto/golang/iotexapi"
 
-	"github.com/iotexproject/iotex-core/ioctl"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/test/mock/mock_apiserviceclient"
-	"github.com/iotexproject/iotex-core/test/mock/mock_ioctlclient"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_apiserviceclient"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_ioctlclient"
 )
 
 func TestNewNodeRewardCmd(t *testing.T) {

@@ -23,9 +23,9 @@ import (
 	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/unit"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 // Default contains the default genesis config

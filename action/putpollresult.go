@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
-	"github.com/iotexproject/iotex-core/pkg/version"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 // PutPollResult represents put the poll result from gravity chain.

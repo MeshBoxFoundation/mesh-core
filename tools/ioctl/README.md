@@ -14,10 +14,10 @@ specific release so install-cli.sh can download them.
 
 # Install
 ## Install released build
-    curl --silent https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh
+    curl --silent https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-cli.sh | sh
 
 ## Install latest build
-    curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh -s "unstable"
+    curl https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-cli.sh | sh -s "unstable"
 ## ioctl
 
 Command-line interface for IoTeX blockchain

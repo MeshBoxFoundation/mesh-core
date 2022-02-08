@@ -34,7 +34,7 @@ initVersion() {
     fi
     GO_VERSION=$(go version)
     BUILD_TIME=$(date +%F-%Z/%T)
-    VersionImportPath='github.com/iotexproject/iotex-core/pkg/version'
+    VersionImportPath='github.com/MeshBoxFoundation/mesh-core/pkg/version'
     PackageFlags="-X '${VersionImportPath}.PackageVersion=${PACKAGE_VERSION}' "
     ## Ubuntu PackageFlags+="-X " have fault
     if [ "$OS" = "linux" ]; then

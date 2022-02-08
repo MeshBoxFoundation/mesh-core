@@ -25,12 +25,12 @@ import (
 	_ "go.uber.org/automaxprocs"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/probe"
-	"github.com/iotexproject/iotex-core/server/itx"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/probe"
+	"github.com/MeshBoxFoundation/mesh-core/server/itx"
 )
 
 /**

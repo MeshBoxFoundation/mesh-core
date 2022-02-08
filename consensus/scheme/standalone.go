@@ -13,10 +13,10 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/blockchain"
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/routine"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/routine"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

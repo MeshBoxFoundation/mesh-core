@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iotexproject/iotex-core/actpool/actioniterator"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/state"
-	"github.com/iotexproject/iotex-core/test/mock/mock_chainmanager"
-	"github.com/iotexproject/iotex-core/test/mock/mock_sealed_envelope_validator"
+	"github.com/MeshBoxFoundation/mesh-core/actpool/actioniterator"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_chainmanager"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_sealed_envelope_validator"
 
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
@@ -25,15 +25,15 @@ import (
 
 	"github.com/iotexproject/iotex-address/address"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/action/protocol/account"
-	accountutil "github.com/iotexproject/iotex-core/action/protocol/account/util"
-	"github.com/iotexproject/iotex-core/action/protocol/rewarding"
-	"github.com/iotexproject/iotex-core/blockchain"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/account"
+	accountutil "github.com/MeshBoxFoundation/mesh-core/action/protocol/account/util"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/rewarding"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 const (

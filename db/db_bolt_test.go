@@ -8,13 +8,13 @@ package db
 
 import (
 	"context"
-	"github.com/iotexproject/iotex-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
 	"math/rand"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 func TestBoltDB_NilDB_DoesNotPanic(t *testing.T) {

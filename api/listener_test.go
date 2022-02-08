@@ -12,8 +12,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/test/mock/mock_apiresponder"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_apiresponder"
 )
 
 // test for chainListener

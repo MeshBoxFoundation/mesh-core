@@ -9,19 +9,19 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/ioctl/cmd/account"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/action"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/alias"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/bc"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/contract"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/did"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/hdwallet"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/jwt"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/node"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/update"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/version"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/account"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/action"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/alias"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/bc"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/contract"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/did"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/hdwallet"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/jwt"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/node"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/update"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/version"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
 )
 
 // Multi-language support

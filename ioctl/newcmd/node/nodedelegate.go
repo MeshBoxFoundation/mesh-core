@@ -13,14 +13,14 @@ import (
 
 	"github.com/iotexproject/iotex-proto/golang/iotexapi"
 
-	"github.com/iotexproject/iotex-core/action/protocol/vote"
-	"github.com/iotexproject/iotex-core/ioctl"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/alias"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/newcmd/bc"
-	"github.com/iotexproject/iotex-core/ioctl/output"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/vote"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/alias"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/newcmd/bc"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 // Multi-language support

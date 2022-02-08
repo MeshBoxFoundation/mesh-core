@@ -14,11 +14,11 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/consensus/scheme/rolldpos/endorsementpb"
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/endorsement"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/consensus/scheme/rolldpos/endorsementpb"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/endorsement"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 const (

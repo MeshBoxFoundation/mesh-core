@@ -12,12 +12,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/ioctl"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/ioctl/validator"
-	"github.com/iotexproject/iotex-core/pkg/util/addrutil"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/validator"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/addrutil"
 )
 
 // Multi-language support

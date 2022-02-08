@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/db/batch"
-	"github.com/iotexproject/iotex-core/test/mock/mock_batch"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_batch"
 )
 
 func TestFlusher(t *testing.T) {

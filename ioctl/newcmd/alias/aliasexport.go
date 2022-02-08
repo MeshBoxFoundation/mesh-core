@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 
-	"github.com/iotexproject/iotex-core/ioctl"
-	"github.com/iotexproject/iotex-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
 )
 
 // Multi-language support

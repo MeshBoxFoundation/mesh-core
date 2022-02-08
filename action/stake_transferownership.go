@@ -13,10 +13,10 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/iotexproject/iotex-address/address"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
 )
 
 // TransferStake defines the action of transfering stake ownership ts the other

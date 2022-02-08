@@ -9,7 +9,7 @@ package testutil
 import (
 	"math/big"
 
-	"github.com/iotexproject/iotex-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
 )
 
 // TestGasLimit represents the gas limit used for test actions

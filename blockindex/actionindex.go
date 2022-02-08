@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/blockindex/indexpb"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/blockindex/indexpb"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
 )
 
 type actionIndex struct {

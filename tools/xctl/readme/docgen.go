@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/ioctl/cmd"
-	"github.com/iotexproject/iotex-core/ioctl/doc"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/doc"
 )
 
 var xctlPath string
@@ -36,10 +36,10 @@ specific release so install-cli.sh can download them.
 
 # Install
 ## Install released build
-    curl --silent https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh
+    curl --silent https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-cli.sh | sh
 
 ## Install latest build
-    curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh -s "unstable"
+    curl https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-cli.sh | sh -s "unstable"
 `
 	rootCmd := cmd.NewXctl()
 

@@ -13,9 +13,9 @@ import (
 
 	"github.com/iotexproject/go-pkgs/hash"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 func TestStoreProto(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/iotexproject/iotex-core/consensus"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/consensus"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 // Controller controls the node high availability status

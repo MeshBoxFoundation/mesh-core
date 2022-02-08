@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/require"
 	tracesdk "go.opentelemetry.io/otel/sdk/trace"
 
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 func TestServerV2Start(t *testing.T) {

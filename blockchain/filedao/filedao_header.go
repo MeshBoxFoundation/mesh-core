@@ -12,8 +12,8 @@ import (
 
 	"github.com/iotexproject/go-pkgs/hash"
 
-	"github.com/iotexproject/iotex-core/blockchain/filedao/headerpb"
-	"github.com/iotexproject/iotex-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/filedao/headerpb"
+	"github.com/MeshBoxFoundation/mesh-core/db"
 )
 
 // constants

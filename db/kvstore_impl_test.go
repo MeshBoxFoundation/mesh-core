@@ -9,7 +9,7 @@ package db
 import (
 	"testing"
 
-	"github.com/iotexproject/iotex-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
 
 	"github.com/stretchr/testify/require"
 )

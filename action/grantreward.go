@@ -11,7 +11,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

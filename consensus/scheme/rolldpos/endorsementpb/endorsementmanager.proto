@@ -12,7 +12,7 @@ package endorsementpb;
 import "proto/types/blockchain.proto";
 import "proto/types/endorsement.proto";
 
-option go_package = "github.com/iotexproject/iotex-core/consensus/scheme/rolldpos/endorsementpb";
+option go_package = "github.com/MeshBoxFoundation/mesh-core/consensus/scheme/rolldpos/endorsementpb";
 
 
 message endorserEndorsementCollection{

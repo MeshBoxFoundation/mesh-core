@@ -9,7 +9,7 @@ package mptrie
 import (
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/db/trie"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie"
 )
 
 // LeafIterator defines an iterator to go through all the leaves under given node

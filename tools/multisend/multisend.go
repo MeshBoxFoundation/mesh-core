@@ -18,7 +18,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/pkg/util/addrutil"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/addrutil"
 )
 
 func main() {

@@ -12,11 +12,11 @@
 # - CLI_RELEASE_TAG (optional): defaults to fetching the latest release
 #
 # You can install using this script:
-# $ curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-cli.sh | sh
+# $ curl https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-cli.sh | sh
 
 set -e
 
-RELEASES_URL="https://github.com/iotexproject/iotex-core/releases"
+RELEASES_URL="https://github.com/MeshBoxFoundation/mesh-core/releases"
 S3URL="https://s3-ap-southeast-1.amazonaws.com/ioctl"
 INSTALL_DIRECTORY='/usr/local/bin'
 

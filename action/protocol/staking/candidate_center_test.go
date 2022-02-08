@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/pkg/unit"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 // testEqual verifies m contains exactly the list

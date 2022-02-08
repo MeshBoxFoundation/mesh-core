@@ -16,12 +16,12 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/probe"
-	"github.com/iotexproject/iotex-core/server/itx"
-	"github.com/iotexproject/iotex-core/tools/executiontester/assetcontract"
-	"github.com/iotexproject/iotex-core/tools/executiontester/blockchain"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/probe"
+	"github.com/MeshBoxFoundation/mesh-core/server/itx"
+	"github.com/MeshBoxFoundation/mesh-core/tools/executiontester/assetcontract"
+	"github.com/MeshBoxFoundation/mesh-core/tools/executiontester/blockchain"
 )
 
 func main() {

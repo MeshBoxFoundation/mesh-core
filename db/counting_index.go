@@ -9,8 +9,8 @@ package db
 import (
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/db/batch"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
 )
 
 var (

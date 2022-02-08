@@ -22,13 +22,13 @@ import (
 	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/action/protocol"
-	accountutil "github.com/iotexproject/iotex-core/action/protocol/account/util"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/pkg/unit"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/testutil/testdb"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	accountutil "github.com/MeshBoxFoundation/mesh-core/action/protocol/account/util"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/testutil/testdb"
 )
 
 const (

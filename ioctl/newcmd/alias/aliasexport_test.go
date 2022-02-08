@@ -12,9 +12,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/test/mock/mock_ioctlclient"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_ioctlclient"
 )
 
 func TestNewAliasExport(t *testing.T) {

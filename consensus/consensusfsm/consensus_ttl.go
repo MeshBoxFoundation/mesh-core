@@ -9,8 +9,8 @@ package consensusfsm
 import (
 	"time"
 
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/config"
 )
 
 type (

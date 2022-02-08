@@ -18,11 +18,11 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/action/protocol/staking/stakingpb"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/staking/stakingpb"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 type (

@@ -9,8 +9,8 @@ package scheme
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/pkg/lifecycle"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

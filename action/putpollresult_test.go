@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/iotexproject/iotex-core/state"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 func TestPutPollResult(t *testing.T) {

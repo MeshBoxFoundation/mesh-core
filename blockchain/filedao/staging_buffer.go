@@ -11,7 +11,7 @@ import (
 
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 )
 
 type (

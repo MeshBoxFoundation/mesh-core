@@ -11,8 +11,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

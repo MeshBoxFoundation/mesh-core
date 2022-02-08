@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/iotexproject/iotex-core/db/batch"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
 )
 
 const fileMode = 0600

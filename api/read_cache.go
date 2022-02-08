@@ -7,8 +7,8 @@ import (
 	"github.com/iotexproject/go-pkgs/hash"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 type (

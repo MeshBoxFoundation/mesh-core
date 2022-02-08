@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/pkg/lifecycle"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle"
 )
 
 var (

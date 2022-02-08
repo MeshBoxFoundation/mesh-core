@@ -9,7 +9,7 @@ package rolldpos
 import (
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/endorsement"
+	"github.com/MeshBoxFoundation/mesh-core/endorsement"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

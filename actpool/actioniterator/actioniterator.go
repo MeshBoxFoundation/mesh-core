@@ -9,7 +9,7 @@ package actioniterator
 import (
 	"container/heap"
 
-	"github.com/iotexproject/iotex-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action"
 )
 
 // ActionByPrice implements both the sort and the heap interface, making it useful

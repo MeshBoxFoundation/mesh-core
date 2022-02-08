@@ -19,11 +19,11 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
-	"github.com/iotexproject/iotex-core/tools/bot/config"
-	"github.com/iotexproject/iotex-core/tools/bot/pkg/util/grpcutil"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/tools/bot/config"
+	"github.com/MeshBoxFoundation/mesh-core/tools/bot/pkg/util/grpcutil"
 )
 
 const (

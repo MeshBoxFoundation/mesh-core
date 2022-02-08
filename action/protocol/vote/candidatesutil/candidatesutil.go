@@ -16,11 +16,11 @@ import (
 
 	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/iotexproject/iotex-address/address"
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/action/protocol/vote"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/vote"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 // CandidatesPrefix is the prefix of the key of candidateList

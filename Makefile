@@ -29,7 +29,7 @@ BUILD_TARGET_ARCH=$(shell go env GOARCH)
 # Pkgs
 ALL_PKGS := $(shell go list ./... )
 PKGS := $(shell go list ./... | grep -v /test/ )
-ROOT_PKG := "github.com/iotexproject/iotex-core"
+ROOT_PKG := "github.com/MeshBoxFoundation/mesh-core"
 
 # Docker parameters
 DOCKERCMD=docker
@@ -45,7 +45,7 @@ else
 endif
 GO_VERSION := $(shell go version)
 BUILD_TIME=$(shell date +%F-%Z/%T)
-VersionImportPath := github.com/iotexproject/iotex-core/pkg/version
+VersionImportPath := github.com/MeshBoxFoundation/mesh-core/pkg/version
 PackageFlags += -X '$(VersionImportPath).PackageVersion=$(PACKAGE_VERSION)'
 PackageFlags += -X '$(VersionImportPath).PackageCommitID=$(PACKAGE_COMMIT_ID)'
 PackageFlags += -X '$(VersionImportPath).GitStatus=$(GIT_STATUS)'

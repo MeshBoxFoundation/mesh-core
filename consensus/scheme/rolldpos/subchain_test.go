@@ -14,10 +14,10 @@ import (
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/pkg/version"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 func TestPutBlockToParentChain(t *testing.T) {

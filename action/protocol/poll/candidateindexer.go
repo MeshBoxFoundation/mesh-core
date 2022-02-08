@@ -13,11 +13,11 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/action/protocol/vote"
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/util/byteutil"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/vote"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 var (

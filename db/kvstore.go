@@ -7,9 +7,9 @@
 package db
 
 import (
-	"github.com/iotexproject/iotex-core/pkg/lifecycle"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle"
 
-	"github.com/iotexproject/iotex-core/db/batch"
+	"github.com/MeshBoxFoundation/mesh-core/db/batch"
 )
 
 type (

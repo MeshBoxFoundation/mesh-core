@@ -8,10 +8,10 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/state"
-	"github.com/iotexproject/iotex-core/test/mock/mock_chainmanager"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_chainmanager"
 )
 
 // NewMockKVStore returns a in memory KVStore.

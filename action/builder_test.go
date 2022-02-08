@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/iotexproject/iotex-core/pkg/version"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 func TestActionBuilder(t *testing.T) {

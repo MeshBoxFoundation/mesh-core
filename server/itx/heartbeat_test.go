@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/pkg/probe"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/probe"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 func TestNewHeartbeatHandler(t *testing.T) {

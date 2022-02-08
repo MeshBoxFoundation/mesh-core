@@ -12,7 +12,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	updpb "github.com/iotexproject/iotex-core/action/protocol/vote/unproductivedelegatepb"
+	updpb "github.com/MeshBoxFoundation/mesh-core/action/protocol/vote/unproductivedelegatepb"
 )
 
 // UnproductiveDelegate defines unproductive delegates information within probation period

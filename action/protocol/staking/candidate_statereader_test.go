@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/iotexproject/iotex-core/testutil/testdb"
+	"github.com/MeshBoxFoundation/mesh-core/testutil/testdb"
 	"github.com/stretchr/testify/require"
 )
 

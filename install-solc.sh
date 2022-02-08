@@ -9,7 +9,7 @@
 # - INSTALL_DIRECTORY (optional): defaults to /usr/local/bin or $HOME (windows)
 #
 # You can install using this script:
-# $ curl https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-solc.sh | sh
+# $ curl https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-solc.sh | sh
 
 set -e
 

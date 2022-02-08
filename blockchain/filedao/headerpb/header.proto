@@ -8,7 +8,7 @@
 //      protoc --go_out=plugins=grpc:. *.proto
 syntax = "proto3";
 package headerpb;
-option go_package = "github.com/iotexproject/iotex-core/blockchain/filedao/headerpb";
+option go_package = "github.com/MeshBoxFoundation/mesh-core/blockchain/filedao/headerpb";
 
 message FileHeader {
     string version = 1;

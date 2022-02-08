@@ -11,12 +11,12 @@ import (
 	"math/big"
 
 	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/crypto"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/crypto"
 )
 
 func calculateTxRoot(acts []action.SealedEnvelope) (hash.Hash256, error) {

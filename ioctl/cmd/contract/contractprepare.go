@@ -13,8 +13,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
 )
 
 // Multi-language support
@@ -44,7 +44,7 @@ var ContractPrepareCmd = &cobra.Command{
 func prepare() error {
 	_, err := compiler.SolidityVersion(solCompiler)
 	if err != nil {
-		cmdString := "curl --silent https://raw.githubusercontent.com/iotexproject/iotex-core/master/install-solc.sh | sh"
+		cmdString := "curl --silent https://raw.githubusercontent.com/MeshBoxFoundation/mesh-core/master/install-solc.sh | sh"
 		cmd := exec.Command("bash", "-c", cmdString)
 		output.PrintResult("Preparing solidity compiler ...\n")
 

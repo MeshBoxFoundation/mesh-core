@@ -8,7 +8,7 @@
 // To use, run "make build" and " ./bin/addrgen"
 package main
 
-import "github.com/iotexproject/iotex-core/tools/addrgen/internal/cmd"
+import "github.com/MeshBoxFoundation/mesh-core/tools/addrgen/internal/cmd"
 
 func main() {
 	cmd.Execute()

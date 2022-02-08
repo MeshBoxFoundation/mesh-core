@@ -9,7 +9,7 @@ package protocol
 import (
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 // Errors

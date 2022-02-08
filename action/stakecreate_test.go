@@ -17,8 +17,8 @@ import (
 
 	"github.com/iotexproject/go-pkgs/crypto"
 
-	"github.com/iotexproject/iotex-core/pkg/unit"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 var stakeCreateTestParams = []struct {

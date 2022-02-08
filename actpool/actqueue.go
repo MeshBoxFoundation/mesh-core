@@ -17,9 +17,9 @@ import (
 
 	"github.com/iotexproject/iotex-address/address"
 
-	"github.com/iotexproject/iotex-core/action"
-	accountutil "github.com/iotexproject/iotex-core/action/protocol/account/util"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	accountutil "github.com/MeshBoxFoundation/mesh-core/action/protocol/account/util"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 type nonceWithTTL struct {

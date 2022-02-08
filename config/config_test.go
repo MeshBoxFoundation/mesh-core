@@ -18,7 +18,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
 )
 
 const (

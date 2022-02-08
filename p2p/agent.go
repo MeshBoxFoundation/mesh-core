@@ -28,10 +28,10 @@ import (
 	goproto "github.com/iotexproject/iotex-proto/golang"
 	"github.com/iotexproject/iotex-proto/golang/iotexrpc"
 
-	"github.com/iotexproject/iotex-core/pkg/lifecycle"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/routine"
-	"github.com/iotexproject/iotex-core/pkg/tracer"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/routine"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/tracer"
 )
 
 const (

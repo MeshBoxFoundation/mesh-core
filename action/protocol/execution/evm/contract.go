@@ -12,11 +12,11 @@ import (
 	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/db/trie"
-	"github.com/iotexproject/iotex-core/db/trie/mptrie"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie/mptrie"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 const (

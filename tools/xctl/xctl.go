@@ -9,8 +9,8 @@ package main
 import (
 	"os"
 
-	"github.com/iotexproject/iotex-core/ioctl/cmd"
-	"github.com/iotexproject/iotex-core/ioctl/cmd/account"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/cmd/account"
 )
 
 func main() {

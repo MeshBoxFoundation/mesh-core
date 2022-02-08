@@ -15,9 +15,9 @@ import (
 	_ "go.uber.org/automaxprocs"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/tools/bot/config"
-	"github.com/iotexproject/iotex-core/tools/bot/server/bot"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/tools/bot/config"
+	"github.com/MeshBoxFoundation/mesh-core/tools/bot/server/bot"
 )
 
 func init() {

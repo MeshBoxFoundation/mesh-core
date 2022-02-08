@@ -12,9 +12,9 @@ import (
 
 	"github.com/iotexproject/iotex-address/address"
 
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/action/protocol/staking/stakingpb"
-	"github.com/iotexproject/iotex-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/staking/stakingpb"
+	"github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 type (

@@ -9,7 +9,7 @@ package sql
 import (
 	"testing"
 
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 
 	"github.com/stretchr/testify/require"
 )

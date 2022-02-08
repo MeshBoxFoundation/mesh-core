@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/blockchain/blockdao"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/tools/iomigrater/common"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/blockdao"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/tools/iomigrater/common"
 )
 
 // Multi-language support

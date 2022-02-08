@@ -22,13 +22,13 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/iotexproject/iotex-address/address"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/dispatcher"
-	"github.com/iotexproject/iotex-core/p2p"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/tracer"
-	"github.com/iotexproject/iotex-core/pkg/unit"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/dispatcher"
+	"github.com/MeshBoxFoundation/mesh-core/p2p"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/tracer"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
 )
 
 // IMPORTANT: to define a config, add a field or a new config type to the existing config types. In addition, provide

@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/tools/iomigrater/cmds"
-	"github.com/iotexproject/iotex-core/tools/iomigrater/common"
+	"github.com/MeshBoxFoundation/mesh-core/tools/iomigrater/cmds"
+	"github.com/MeshBoxFoundation/mesh-core/tools/iomigrater/common"
 )
 
 // Multi-language support

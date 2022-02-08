@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/action/protocol/poll/blockmetapb"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/poll/blockmetapb"
 )
 
 // BlockMeta is a struct to store block metadata

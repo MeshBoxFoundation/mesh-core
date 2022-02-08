@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 func TestTransferSignVerify(t *testing.T) {

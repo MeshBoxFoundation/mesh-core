@@ -36,7 +36,7 @@ import (
 	yaml "gopkg.in/yaml.v2"
 
 	"github.com/iotexproject/go-pkgs/cache/ttl"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 // KeyPairs indicate the keypair of accounts getting transfers from Creator in genesis block

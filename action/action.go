@@ -15,7 +15,7 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 // Action is the action can be Executed in protocols. The method is added to avoid mistakenly used empty interface as action.

@@ -11,7 +11,7 @@ import (
 
 	"github.com/iotexproject/go-pkgs/crypto"
 
-	"github.com/iotexproject/iotex-core/pkg/version"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
 )
 
 // Builder is used to build an action.

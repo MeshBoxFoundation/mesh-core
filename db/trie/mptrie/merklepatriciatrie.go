@@ -16,8 +16,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/db/trie"
-	"github.com/iotexproject/iotex-core/db/trie/triepb"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie/triepb"
 )
 
 var (

@@ -15,9 +15,9 @@ import (
 
 	"github.com/iotexproject/iotex-address/address"
 
-	"github.com/iotexproject/iotex-core/state"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/testutil/testdb"
+	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/testutil/testdb"
 )
 
 func TestBucketIndices(t *testing.T) {

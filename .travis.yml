@@ -7,7 +7,7 @@ env:
   global:
   - USER="iotexproject"
   - REPO="iotex-core"
-  - LD_LIBRARY_PATH=:${TRAVIS_HOME}/gopath/src/github.com/iotexproject/iotex-core/crypto/lib
+  - LD_LIBRARY_PATH=:${TRAVIS_HOME}/gopath/src/github.com/MeshBoxFoundation/mesh-core/crypto/lib
 git:
   depth: 3
   quiet: true

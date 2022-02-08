@@ -10,8 +10,8 @@ import (
 
 	keystore "github.com/ethereum/go-ethereum/accounts/keystore"
 	gomock "github.com/golang/mock/gomock"
-	ioctl "github.com/iotexproject/iotex-core/ioctl"
-	config "github.com/iotexproject/iotex-core/ioctl/config"
+	ioctl "github.com/MeshBoxFoundation/mesh-core/ioctl"
+	config "github.com/MeshBoxFoundation/mesh-core/ioctl/config"
 	iotexapi "github.com/iotexproject/iotex-proto/golang/iotexapi"
 )
 

@@ -14,9 +14,9 @@ import (
 	"github.com/iotexproject/iotex-address/address"
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/iotex-core/ioctl"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
 )
 
 // Multi-language support

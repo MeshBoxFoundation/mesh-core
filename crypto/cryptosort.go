@@ -11,7 +11,7 @@ import (
 	"sort"
 
 	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-core/pkg/enc"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/enc"
 )
 
 var (

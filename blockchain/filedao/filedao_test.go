@@ -16,9 +16,9 @@ import (
 
 	"github.com/iotexproject/go-pkgs/crypto"
 	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/db"
-	"github.com/iotexproject/iotex-core/pkg/compress"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/compress"
 )
 
 func TestChecksumNamespaceAndKeys(t *testing.T) {

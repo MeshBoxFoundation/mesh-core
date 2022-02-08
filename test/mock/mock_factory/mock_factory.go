@@ -10,12 +10,12 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	address "github.com/iotexproject/iotex-address/address"
-	action "github.com/iotexproject/iotex-core/action"
-	protocol "github.com/iotexproject/iotex-core/action/protocol"
-	evm "github.com/iotexproject/iotex-core/action/protocol/execution/evm"
-	actpool "github.com/iotexproject/iotex-core/actpool"
-	block "github.com/iotexproject/iotex-core/blockchain/block"
-	state "github.com/iotexproject/iotex-core/state"
+	action "github.com/MeshBoxFoundation/mesh-core/action"
+	protocol "github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	evm "github.com/MeshBoxFoundation/mesh-core/action/protocol/execution/evm"
+	actpool "github.com/MeshBoxFoundation/mesh-core/actpool"
+	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	state "github.com/MeshBoxFoundation/mesh-core/state"
 )
 
 // MockFactory is a mock of Factory interface.

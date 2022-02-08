@@ -16,10 +16,10 @@ import (
 	"github.com/spf13/cobra"
 
 	"github.com/iotexproject/go-pkgs/crypto"
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/pkg/util/fileutil"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/fileutil"
 )
 
 // Multi-language support

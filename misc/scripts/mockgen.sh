@@ -17,7 +17,7 @@ mockgen -destination=./test/mock/mock_blockchain/mock_blockchain.go  \
 mkdir -p ./test/mock/mock_blockdao
 mockgen -destination=./test/mock/mock_blockdao/mock_blockdao.go  \
         -source=./blockchain/blockdao/blockdao.go \
-        -aux_files=github.com/iotexproject/iotex-core/blockchain/blockdao=./blockchain/filedao/filedao.go \
+        -aux_files=github.com/MeshBoxFoundation/mesh-core/blockchain/blockdao=./blockchain/filedao/filedao.go \
         -package=mock_blockdao \
         BlockDAO
 
@@ -41,19 +41,19 @@ mockgen -destination=./test/mock/mock_consensus/mock_consensus.go  \
 
 mockgen -destination=./consensus/consensusfsm/mock_context_test.go  \
         -source=./consensus/consensusfsm/context.go \
-	-self_package=github.com/iotexproject/iotex-core/consensus/consensusfsm \
-	-aux_files=github.com/iotexproject/iotex-core/consensus/consensusfsm=./consensus/consensusfsm/consensus_ttl.go \
+	-self_package=github.com/MeshBoxFoundation/mesh-core/consensus/consensusfsm \
+	-aux_files=github.com/MeshBoxFoundation/mesh-core/consensus/consensusfsm=./consensus/consensusfsm/consensus_ttl.go \
 	-package=consensusfsm \
         Context
 
 mkdir -p ./test/mock/mock_lifecycle
 mockgen -destination=./test/mock/mock_lifecycle/mock_lifecycle.go \
-        github.com/iotexproject/iotex-core/pkg/lifecycle StartStopper
+        github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle StartStopper
 
 mkdir -p ./test/mock/mock_actpool
 mockgen -destination=./test/mock/mock_actpool/mock_actpool.go  \
         -source=./actpool/actpool.go \
-        -self_package=github.com/iotexproject/iotex-core/actpool \
+        -self_package=github.com/MeshBoxFoundation/mesh-core/actpool \
         -package=mock_actpool \
         ActPool
 
@@ -65,7 +65,7 @@ mockgen -destination=./test/mock/mock_actioniterator/mock_actioniterator.go  \
 
 mockgen -destination=./action/protocol/mock_protocol_test.go  \
         -source=./action/protocol/protocol.go \
-        -self_package=github.com/iotexproject/iotex-core/action/protocol \
+        -self_package=github.com/MeshBoxFoundation/mesh-core/action/protocol \
         -package=protocol \
         Protocol
 
@@ -77,7 +77,7 @@ mockgen -destination=./test/mock/mock_poll/mock_poll.go  \
 
 mockgen -destination=./db/mock_kvstore.go  \
         -source=./db/kvstore.go \
-        -self_package=github.com/iotexproject/iotex-core/db \
+        -self_package=github.com/MeshBoxFoundation/mesh-core/db \
         -package=db \
         KVStore
 
@@ -102,7 +102,7 @@ mockgen -destination=./test/mock/mock_chainmanager/mock_chainmanager.go  \
 mkdir -p ./test/mock/mock_blocksync
 mockgen -destination=./test/mock/mock_blocksync/mock_blocksync.go  \
         -source=./blocksync/blocksync.go \
-        -self_package=github.com/iotexproject/iotex-core/blocksync \
+        -self_package=github.com/MeshBoxFoundation/mesh-core/blocksync \
         -package=mock_blocksync \
         BlockSync
 

@@ -18,12 +18,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/action/protocol"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/state"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/test/mock/mock_chainmanager"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_chainmanager"
 )
 
 func TestNoncePriorityQueue(t *testing.T) {
@@ -268,7 +268,7 @@ func TestActQueueCleanTimeout(t *testing.T) {
 // using the heap.Init and the heap.Remove after remove some elements.
 // The bench result show that the performance of heap.Init is better than heap.Remove
 // in the most cases.
-// More detail to see the discusses in https://github.com/iotexproject/iotex-core/pull/3013
+// More detail to see the discusses in https://github.com/MeshBoxFoundation/mesh-core/pull/3013
 func BenchmarkHeapInitAndRemove(b *testing.B) {
 	const batch = 20
 	testIndex := noncePriorityQueue{}

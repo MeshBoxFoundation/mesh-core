@@ -29,7 +29,7 @@ linters-settings:
   lll:
     line-length: 140
   goimports:
-    local-prefixes: github.com/iotexproject/iotex-core
+    local-prefixes: github.com/MeshBoxFoundation/mesh-core
   gocritic:
     enabled-tags:
       - diagnostic

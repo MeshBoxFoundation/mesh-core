@@ -12,7 +12,7 @@ import (
 
 	"github.com/facebookgo/clock"
 
-	"github.com/iotexproject/iotex-core/pkg/lifecycle"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle"
 )
 
 var _ lifecycle.StartStopper = (*DelayTask)(nil)

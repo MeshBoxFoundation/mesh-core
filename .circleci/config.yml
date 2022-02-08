@@ -7,9 +7,9 @@ jobs:
   build_test_local:
     docker:
       - image: iotex/iotex-core-ci:latest
-    working_directory: /go/src/github.com/iotexproject/iotex-core
+    working_directory: /go/src/github.com/MeshBoxFoundation/mesh-core
     steps:
-      - run: mkdir -p /go/src/github.com/iotexproject/iotex-core && cp -arf /tmp/_circleci_local_build_repo/* /go/src/github.com/iotexproject/iotex-core/
+      - run: mkdir -p /go/src/github.com/MeshBoxFoundation/mesh-core && cp -arf /tmp/_circleci_local_build_repo/* /go/src/github.com/MeshBoxFoundation/mesh-core/
       - run: golint -set_exit_status $(go list ./... | grep -v /vendor/ | grep -v /explorer/idl/ | grep -v /api/idl/)
       - run: ./go.test.sh
       - run: bash <(curl -s https://codecov.io/bash)

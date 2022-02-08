@@ -53,7 +53,7 @@ import (
     "encoding/binary"
     "errors"
 
-    "github.com/iotexproject/iotex-core/pkg/enc"
+    "github.com/MeshBoxFoundation/mesh-core/pkg/enc"
     "github.com/iotexproject/go-pkgs/crypto"
 )
 ```

@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	batch "github.com/iotexproject/iotex-core/db/batch"
+	batch "github.com/MeshBoxFoundation/mesh-core/db/batch"
 )
 
 // MockKVStoreBatch is a mock of KVStoreBatch interface.

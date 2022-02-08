@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/iotexproject/iotex-core/pkg/util/fileutil"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/fileutil"
 )
 
 // PathOfTempFile returns path of a new temporary file

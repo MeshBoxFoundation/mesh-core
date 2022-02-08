@@ -9,10 +9,10 @@ package factory
 import (
 	"context"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/actpool"
-	"github.com/iotexproject/iotex-core/blockchain"
-	"github.com/iotexproject/iotex-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/actpool"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 )
 
 type minter struct {

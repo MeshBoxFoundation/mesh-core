@@ -24,13 +24,13 @@ import (
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/ioctl/config"
-	"github.com/iotexproject/iotex-core/ioctl/output"
-	"github.com/iotexproject/iotex-core/ioctl/util"
-	"github.com/iotexproject/iotex-core/test/identityset"
-	"github.com/iotexproject/iotex-core/test/mock/mock_apiserviceclient"
-	"github.com/iotexproject/iotex-core/test/mock/mock_ioctlclient"
-	"github.com/iotexproject/iotex-core/testutil"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
+	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_apiserviceclient"
+	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_ioctlclient"
+	"github.com/MeshBoxFoundation/mesh-core/testutil"
 )
 
 const (

@@ -13,7 +13,7 @@ import (
 
 	"github.com/iotexproject/iotex-address/address"
 
-	"github.com/iotexproject/iotex-core/action/protocol"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 )
 
 // const

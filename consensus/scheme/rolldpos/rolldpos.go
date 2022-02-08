@@ -17,14 +17,14 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/action/protocol/rolldpos"
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/consensus/consensusfsm"
-	"github.com/iotexproject/iotex-core/consensus/scheme"
-	"github.com/iotexproject/iotex-core/endorsement"
-	"github.com/iotexproject/iotex-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/rolldpos"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/consensus/consensusfsm"
+	"github.com/MeshBoxFoundation/mesh-core/consensus/scheme"
+	"github.com/MeshBoxFoundation/mesh-core/endorsement"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 )
 
 var (

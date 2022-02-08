@@ -17,7 +17,7 @@ import (
 
 	"github.com/iotexproject/go-pkgs/hash"
 
-	"github.com/iotexproject/iotex-core/db"
+	"github.com/MeshBoxFoundation/mesh-core/db"
 )
 
 func checkMasterChainDBFile(defaultName string) (*FileHeader, error) {

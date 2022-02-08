@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/db/trie"
+	"github.com/MeshBoxFoundation/mesh-core/db/trie"
 )
 
 func TestIterator(t *testing.T) {

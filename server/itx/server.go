@@ -17,15 +17,15 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/chainservice"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/dispatcher"
-	"github.com/iotexproject/iotex-core/p2p"
-	"github.com/iotexproject/iotex-core/pkg/ha"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/probe"
-	"github.com/iotexproject/iotex-core/pkg/routine"
-	"github.com/iotexproject/iotex-core/pkg/util/httputil"
+	"github.com/MeshBoxFoundation/mesh-core/chainservice"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/dispatcher"
+	"github.com/MeshBoxFoundation/mesh-core/p2p"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/ha"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/probe"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/routine"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/httputil"
 )
 
 // Server is the iotex server instance containing all components.

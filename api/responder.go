@@ -7,7 +7,7 @@
 package api
 
 import (
-	"github.com/iotexproject/iotex-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 )
 
 // Responder responds to new block

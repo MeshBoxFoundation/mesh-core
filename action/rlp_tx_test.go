@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/config"
 )
 
 func TestGenerateRlp(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/tools/bot/config"
-	"github.com/iotexproject/iotex-core/tools/bot/pkg/util/grpcutil"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/tools/bot/config"
+	"github.com/MeshBoxFoundation/mesh-core/tools/bot/pkg/util/grpcutil"
 )
 
 // Transfer defines transfer struct

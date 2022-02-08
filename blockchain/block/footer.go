@@ -12,7 +12,7 @@ import (
 	"github.com/golang/protobuf/ptypes"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-core/endorsement"
+	"github.com/MeshBoxFoundation/mesh-core/endorsement"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

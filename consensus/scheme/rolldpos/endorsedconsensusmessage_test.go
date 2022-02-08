@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-core/endorsement"
-	"github.com/iotexproject/iotex-core/test/identityset"
+	"github.com/MeshBoxFoundation/mesh-core/endorsement"
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 func TestEndorsedConsensusMessage(t *testing.T) {

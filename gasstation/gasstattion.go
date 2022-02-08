@@ -15,11 +15,11 @@ import (
 	"github.com/iotexproject/iotex-address/address"
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/action"
-	"github.com/iotexproject/iotex-core/action/protocol/execution/evm"
-	"github.com/iotexproject/iotex-core/blockchain"
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/action"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/execution/evm"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/config"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

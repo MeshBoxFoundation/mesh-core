@@ -1,7 +1,7 @@
 Contributing to IoTeX Core
 ============================
 
-The IoTeX Core project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. If you are interested in contributing to the project then checkout the [Contributor's Guide](https://github.com/iotexproject/iotex-core/wiki/IoTex-Contributor-Guide)
+The IoTeX Core project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. If you are interested in contributing to the project then checkout the [Contributor's Guide](https://github.com/MeshBoxFoundation/mesh-core/wiki/IoTex-Contributor-Guide)
 
 Copyright
 ---------

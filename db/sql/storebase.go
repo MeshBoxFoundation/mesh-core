@@ -15,7 +15,7 @@ import (
 	"github.com/rs/zerolog"
 
 	// this is required for sqlite3 usage
-	"github.com/iotexproject/iotex-core/pkg/lifecycle"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/lifecycle"
 )
 
 // Store is the interface of KV store.

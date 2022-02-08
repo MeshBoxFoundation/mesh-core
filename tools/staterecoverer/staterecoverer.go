@@ -19,13 +19,13 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-core/blockchain/blockdao"
-	"github.com/iotexproject/iotex-core/blockchain/genesis"
-	"github.com/iotexproject/iotex-core/config"
-	"github.com/iotexproject/iotex-core/pkg/log"
-	"github.com/iotexproject/iotex-core/pkg/util/fileutil"
-	"github.com/iotexproject/iotex-core/server/itx"
-	"github.com/iotexproject/iotex-core/state/factory"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/blockdao"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	"github.com/MeshBoxFoundation/mesh-core/config"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/MeshBoxFoundation/mesh-core/pkg/util/fileutil"
+	"github.com/MeshBoxFoundation/mesh-core/server/itx"
+	"github.com/MeshBoxFoundation/mesh-core/state/factory"
 )
 
 // recoveryHeight is the blockchain height being recovered to

@@ -11,9 +11,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-core/action/protocol/rolldpos"
-	"github.com/iotexproject/iotex-core/blockchain/block"
-	"github.com/iotexproject/iotex-core/endorsement"
+	"github.com/MeshBoxFoundation/mesh-core/action/protocol/rolldpos"
+	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	"github.com/MeshBoxFoundation/mesh-core/endorsement"
 )
 
 var errInvalidCurrentTime = errors.New("invalid current time")
