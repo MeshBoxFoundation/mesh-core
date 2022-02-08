@@ -13,7 +13,7 @@ Please visit https://meshbox.io official website or [meshbox onboard pack](https
 
 #### Run a delegate?
 
-Please visit [meshbox Delegate Manual](https://github.com//MeshBoxFoundation/meshbox-bootstrap) for detailed setup process.
+Please visit [meshbox Delegate Manual](https://github.com/MeshBoxFoundation/meshbox-bootstrap) for detailed setup process.
 
 ## Building the source code
 
@@ -28,7 +28,7 @@ Please visit [meshbox Delegate Manual](https://github.com//MeshBoxFoundation/mes
 
 Download the code to your desired local location (doesn't have to be under `$GOPATH/src`)
 ```
-git clone git@github.com:meshboxproject/mesh-core.git
+git clone git@github.com:MeshBoxFoundation/mesh-core.git
 cd mesh-core
 ```
 
