@@ -13,7 +13,7 @@ Please visit https://meshbox.io official website or [meshbox onboard pack](https
 
 #### Run a delegate?
 
-Please visit [meshbox Delegate Manual](https://github.com/meshboxproject/meshbox-bootstrap) for detailed setup process.
+Please visit [meshbox Delegate Manual](https://github.com//MeshBoxFoundation/meshbox-bootstrap) for detailed setup process.
 
 ## Building the source code
 
