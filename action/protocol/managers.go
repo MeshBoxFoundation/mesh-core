@@ -1,9 +1,9 @@
 package protocol
 
 import (
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/db"
 	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/pkg/errors"
 )
 

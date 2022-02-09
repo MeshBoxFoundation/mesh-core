@@ -7,8 +7,8 @@ package mock_apiresponder
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockResponder is a mock of Responder interface.

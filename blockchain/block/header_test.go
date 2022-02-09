@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/stretchr/testify/require"
 )
 

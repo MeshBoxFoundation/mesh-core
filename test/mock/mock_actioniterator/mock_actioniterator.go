@@ -7,8 +7,8 @@ package mock_actioniterator
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	action "github.com/MeshBoxFoundation/mesh-core/action"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockActionIterator is a mock of ActionIterator interface.

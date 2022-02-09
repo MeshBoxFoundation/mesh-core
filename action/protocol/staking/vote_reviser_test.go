@@ -9,12 +9,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
 	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 	"github.com/MeshBoxFoundation/mesh-core/testutil/testdb"
+	"github.com/iotexproject/iotex-address/address"
 )
 
 func TestVoteReviser(t *testing.T) {

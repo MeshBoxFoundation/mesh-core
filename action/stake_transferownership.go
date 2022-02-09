@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 
 	"github.com/MeshBoxFoundation/mesh-core/pkg/version"

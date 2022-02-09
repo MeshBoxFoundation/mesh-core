@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	scheme "github.com/MeshBoxFoundation/mesh-core/consensus/scheme"
+	gomock "github.com/golang/mock/gomock"
 	iotextypes "github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

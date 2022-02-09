@@ -5,12 +5,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/action"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol/staking"
 	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/iotexproject/go-pkgs/hash"
+	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-election/util"
 )
 

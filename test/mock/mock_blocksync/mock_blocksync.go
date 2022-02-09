@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockBlockSync is a mock of BlockSync interface.

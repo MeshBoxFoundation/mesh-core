@@ -8,10 +8,10 @@ import (
 	context "context"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	action "github.com/MeshBoxFoundation/mesh-core/action"
 	protocol "github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	state "github.com/MeshBoxFoundation/mesh-core/state"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockProtocol is a mock of Protocol interface.

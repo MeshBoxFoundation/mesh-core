@@ -7,11 +7,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	"github.com/MeshBoxFoundation/mesh-core/db"
 	"github.com/MeshBoxFoundation/mesh-core/state"
 	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_chainmanager"
+	"github.com/iotexproject/go-pkgs/hash"
 )
 
 // NewMockKVStore returns a in memory KVStore.

@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol/account/accountpb"
+	"github.com/iotexproject/go-pkgs/hash"
 )
 
 var (

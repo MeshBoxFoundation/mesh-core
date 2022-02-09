@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/go-pkgs/crypto"
 	"github.com/MeshBoxFoundation/mesh-core/action"
 	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
+	"github.com/iotexproject/go-pkgs/crypto"
 )
 
 func TestActionIterator(t *testing.T) {

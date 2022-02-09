@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/golang/mock/gomock"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
 	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_ioctlclient"
+	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )
 

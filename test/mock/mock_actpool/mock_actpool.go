@@ -8,11 +8,11 @@ import (
 	context "context"
 	reflect "reflect"
 
+	action "github.com/MeshBoxFoundation/mesh-core/action"
+	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	gomock "github.com/golang/mock/gomock"
 	hash "github.com/iotexproject/go-pkgs/hash"
 	address "github.com/iotexproject/iotex-address/address"
-	action "github.com/MeshBoxFoundation/mesh-core/action"
-	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 )
 
 // MockActPool is a mock of ActPool interface.

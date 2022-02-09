@@ -14,7 +14,6 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	accountutil "github.com/MeshBoxFoundation/mesh-core/action/protocol/account/util"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol/rewarding"
@@ -24,6 +23,7 @@ import (
 	"github.com/MeshBoxFoundation/mesh-core/state"
 	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 	"github.com/MeshBoxFoundation/mesh-core/test/mock/mock_chainmanager"
+	"github.com/iotexproject/iotex-address/address"
 )
 
 func TestLoadOrCreateAccountState(t *testing.T) {

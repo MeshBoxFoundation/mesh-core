@@ -15,11 +15,11 @@ import (
 	hdwallet "github.com/miguelmota/go-ethereum-hdwallet"
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/go-pkgs/crypto"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/util/fileutil"
+	"github.com/iotexproject/go-pkgs/crypto"
 )
 
 // Multi-language support

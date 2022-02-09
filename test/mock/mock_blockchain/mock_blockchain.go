@@ -9,12 +9,12 @@ import (
 	reflect "reflect"
 	time "time"
 
-	gomock "github.com/golang/mock/gomock"
-	hash "github.com/iotexproject/go-pkgs/hash"
 	action "github.com/MeshBoxFoundation/mesh-core/action"
 	blockchain "github.com/MeshBoxFoundation/mesh-core/blockchain"
 	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	genesis "github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
+	gomock "github.com/golang/mock/gomock"
+	hash "github.com/iotexproject/go-pkgs/hash"
 )
 
 // MockBlockchain is a mock of Blockchain interface.

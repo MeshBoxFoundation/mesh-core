@@ -14,13 +14,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/go-pkgs/hash"
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol/vote"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
 	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/iotexproject/go-pkgs/hash"
+	"github.com/iotexproject/iotex-address/address"
 )
 
 // CandidatesPrefix is the prefix of the key of candidateList

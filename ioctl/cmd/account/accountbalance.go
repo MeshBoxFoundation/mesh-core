@@ -12,10 +12,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	ioAddress "github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/util"
+	ioAddress "github.com/iotexproject/iotex-address/address"
 )
 
 // Multi-language support

@@ -13,9 +13,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/iotexproject/go-pkgs/crypto"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/config"
 	"github.com/MeshBoxFoundation/mesh-core/ioctl/output"
+	"github.com/iotexproject/go-pkgs/crypto"
 )
 
 var numAccounts uint

@@ -7,8 +7,8 @@ package mock_blockcreationsubscriber
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockBlockCreationSubscriber is a mock of BlockCreationSubscriber interface.

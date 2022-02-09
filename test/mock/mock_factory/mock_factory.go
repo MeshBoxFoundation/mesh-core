@@ -8,14 +8,14 @@ import (
 	context "context"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
-	address "github.com/iotexproject/iotex-address/address"
 	action "github.com/MeshBoxFoundation/mesh-core/action"
 	protocol "github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	evm "github.com/MeshBoxFoundation/mesh-core/action/protocol/execution/evm"
 	actpool "github.com/MeshBoxFoundation/mesh-core/actpool"
 	block "github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	state "github.com/MeshBoxFoundation/mesh-core/state"
+	gomock "github.com/golang/mock/gomock"
+	address "github.com/iotexproject/iotex-address/address"
 )
 
 // MockFactory is a mock of Factory interface.

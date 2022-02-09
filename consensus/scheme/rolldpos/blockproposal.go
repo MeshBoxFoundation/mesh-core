@@ -7,10 +7,10 @@
 package rolldpos
 
 import (
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	"github.com/MeshBoxFoundation/mesh-core/endorsement"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 	"google.golang.org/protobuf/proto"
 )

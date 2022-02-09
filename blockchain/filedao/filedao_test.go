@@ -14,11 +14,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/go-pkgs/crypto"
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	"github.com/MeshBoxFoundation/mesh-core/db"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/compress"
+	"github.com/iotexproject/go-pkgs/crypto"
+	"github.com/iotexproject/go-pkgs/hash"
 )
 
 func TestChecksumNamespaceAndKeys(t *testing.T) {

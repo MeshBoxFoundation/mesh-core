@@ -21,7 +21,6 @@ import (
 	uconfig "go.uber.org/config"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/blockchain/genesis"
 	"github.com/MeshBoxFoundation/mesh-core/db"
 	"github.com/MeshBoxFoundation/mesh-core/dispatcher"
@@ -29,6 +28,7 @@ import (
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/tracer"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/unit"
+	"github.com/iotexproject/iotex-address/address"
 )
 
 // IMPORTANT: to define a config, add a field or a new config type to the existing config types. In addition, provide

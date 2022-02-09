@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 	"github.com/MeshBoxFoundation/mesh-core/testutil"
+	"github.com/iotexproject/go-pkgs/hash"
 )
 
 func TestTestingBuilder(t *testing.T) {

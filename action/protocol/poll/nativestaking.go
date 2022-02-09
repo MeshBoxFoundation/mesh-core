@@ -17,11 +17,11 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol"
 	"github.com/MeshBoxFoundation/mesh-core/action/protocol/rolldpos"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
 	"github.com/MeshBoxFoundation/mesh-core/state"
+	"github.com/iotexproject/iotex-address/address"
 	"github.com/iotexproject/iotex-election/types"
 )
 

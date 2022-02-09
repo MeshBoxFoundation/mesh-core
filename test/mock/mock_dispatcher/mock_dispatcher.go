@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	dispatcher "github.com/MeshBoxFoundation/mesh-core/dispatcher"
+	gomock "github.com/golang/mock/gomock"
 	iotexrpc "github.com/iotexproject/iotex-proto/golang/iotexrpc"
 	iotextypes "github.com/iotexproject/iotex-proto/golang/iotextypes"
 	peer "github.com/libp2p/go-libp2p-core/peer"

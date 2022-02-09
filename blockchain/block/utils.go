@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 

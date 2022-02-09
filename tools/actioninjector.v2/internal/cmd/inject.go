@@ -35,8 +35,8 @@ import (
 	"google.golang.org/grpc/credentials"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/iotexproject/go-pkgs/cache/ttl"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/iotexproject/go-pkgs/cache/ttl"
 )
 
 // KeyPairs indicate the keypair of accounts getting transfers from Creator in genesis block

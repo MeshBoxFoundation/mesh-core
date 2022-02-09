@@ -5,9 +5,9 @@ import (
 	"encoding/hex"
 	"sync"
 
-	"github.com/iotexproject/go-pkgs/cache"
 	"github.com/MeshBoxFoundation/mesh-core/db/batch"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/iotexproject/go-pkgs/cache"
 )
 
 // kvStoreWithCache is an implementation of KVStore, wrapping kvstore with LRU caches of latest states

@@ -3,8 +3,8 @@ package action
 import (
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
+	"github.com/ethereum/go-ethereum/accounts/abi"
 	"go.uber.org/zap"
 )
 

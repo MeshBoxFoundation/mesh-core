@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/enc"
+	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,9 +13,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/iotexproject/iotex-address/address"
-	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 )
 
 func TestCandidateEqual(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	batch "github.com/MeshBoxFoundation/mesh-core/db/batch"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockKVStoreBasic is a mock of KVStoreBasic interface.

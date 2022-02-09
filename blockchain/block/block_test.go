@@ -18,7 +18,6 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/MeshBoxFoundation/mesh-core/action"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/compress"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/log"
@@ -26,6 +25,7 @@ import (
 	"github.com/MeshBoxFoundation/mesh-core/pkg/version"
 	"github.com/MeshBoxFoundation/mesh-core/test/identityset"
 	"github.com/MeshBoxFoundation/mesh-core/testutil"
+	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/iotexproject/iotex-proto/golang/iotextypes"
 )
 

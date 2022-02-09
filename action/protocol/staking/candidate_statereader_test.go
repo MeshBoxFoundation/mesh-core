@@ -10,8 +10,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/golang/mock/gomock"
 	"github.com/MeshBoxFoundation/mesh-core/testutil/testdb"
+	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 )
 

@@ -15,12 +15,12 @@ import (
 	"github.com/iotexproject/go-pkgs/hash"
 	"github.com/pkg/errors"
 
-	"github.com/iotexproject/iotex-address/address"
 	"github.com/MeshBoxFoundation/mesh-core/action"
 	"github.com/MeshBoxFoundation/mesh-core/blockchain/block"
 	"github.com/MeshBoxFoundation/mesh-core/db"
 	"github.com/MeshBoxFoundation/mesh-core/db/batch"
 	"github.com/MeshBoxFoundation/mesh-core/pkg/util/byteutil"
+	"github.com/iotexproject/iotex-address/address"
 )
 
 // the NS/bucket name here are used in index.db, which is separate from chain.db

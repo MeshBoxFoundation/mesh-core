@@ -7,8 +7,8 @@ package mock_batch
 import (
 	reflect "reflect"
 
-	gomock "github.com/golang/mock/gomock"
 	batch "github.com/MeshBoxFoundation/mesh-core/db/batch"
+	gomock "github.com/golang/mock/gomock"
 )
 
 // MockKVStoreBatch is a mock of KVStoreBatch interface.
